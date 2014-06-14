@@ -14,7 +14,7 @@ he FileFog philosophy is as follows:
 Please note that this package is under heavy development, and the unified API may change unexpectedly. Once the API is stable, a version 1.0 will be released on NPM.
 
 # Providers
-Initally FileFog will be released with only support for the following popular Cloud Services.
+Initally FileFog will be rele ased with only support for the following popular Cloud Services.
 
 - Google
 - SkyDrive
