@@ -16,7 +16,7 @@ build:
           echo "npm version $(npm -v) running"
 deploy:
   steps:
-    - analogj/node-continuous-deploy@0.0.9:
+    - analogj/node-continuous-deploy@0.0.10:
         dev_branch: development
         deploy_branch: master
         rdoc: true
