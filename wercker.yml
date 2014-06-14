@@ -19,7 +19,6 @@ deploy:
     - analogj/node-continuous-deploy@0.0.1:
         dev_branch: development
         deploy_branch: master
-        rdoc: true
         version_bump: patch
         github_access_token: $GITHUB_ACCESS_TOKEN
         push: true
