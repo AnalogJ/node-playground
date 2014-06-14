@@ -16,7 +16,7 @@ build:
           echo "npm version $(npm -v) running"
 deploy:
   steps:
-    - analogj/node-continuous-deploy@0.0.5:
+    - analogj/node-continuous-deploy@0.0.6:
         dev_branch: development
         deploy_branch: master
         version_bump: patch
@@ -24,5 +24,5 @@ deploy:
         push: true
         pr: true
         npm_publish: true
-        auth: $NPM_AUTH_TOKEN
-        email: jason@thesparktree.com
+        npm_auth: $NPM_AUTH_TOKEN
+        npm_email: jason@thesparktree.com
