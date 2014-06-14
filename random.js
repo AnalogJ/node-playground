@@ -1,3 +1,3 @@
-function(sdfsd){
+function name(sdfsd){
     return sdfsd;
 }
