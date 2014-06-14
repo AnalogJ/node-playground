@@ -1,0 +1,19 @@
+{
+  "author": "Jason Kulatunga",
+  "name": "wercker-node-continuous-deploy-test",
+  "description": "Wercker continuous deployment test package",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/analogj/node-playground.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "q": "~1.0.0",
+    "winston": "~0.7.2",
+    "node.extend": "~1.0.9"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
